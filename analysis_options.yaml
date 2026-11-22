@@ -1,0 +1,14 @@
+analyzer:
+  exclude:
+    - '.toolchain/**'
+    - '**/build/**'
+  errors:
+    unused_import: warning
+    dead_code: warning
+
+linter:
+  rules:
+    - avoid_print
+    - prefer_single_quotes
+    - prefer_final_fields
+    - always_declare_return_types
